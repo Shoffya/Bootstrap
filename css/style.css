@@ -1,0 +1,137 @@
+/*Gerais*/
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.bg-primary-color{
+    background-color: aquamarine;
+}
+
+.bg-secondary-color{
+    background-color: rgb(189, 255, 233);
+}
+
+.bg-dark-color{
+    background-color: black;
+}
+
+.primary-color{
+    color: black;
+}
+
+.secondary-color{
+    color: #7a7a7a;
+}
+
+/* NAVBAR */
+#navbar{
+    border-bottom: 1px solid black;
+}
+
+#navbar a:hover{
+    color: rebeccapurple;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid rebeccapurple;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+}
+
+/* SLIDER */
+
+#slider{
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+    bottom: 3em;
+}
+
+#slider .carousel-caption h5{
+    font-size: 2em;
+    text-shadow: #000 3px 3px;
+}
+
+.btn {
+    background-color: #3f1d1d;
+}
+
+#slider .btn{
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{
+    color: #111;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #111;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+
+@media(min-width: 768px){
+    #slider .carousel-caption{
+        bottom: 8em;
+    }
+
+    #slider .carousel-caption h5{
+        font-size: 4em;
+        text-shadow: #000 2px 3px;
+    }
+
+    #slider .btn{
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    .carousel-indicators{
+        bottom: 4em;
+    }
+}
+
+/* MiNI BANNERS */
+
+#mini-banners{
+    margin-bottom: 4em;
+}
+
+#mini-banners .card{
+    padding: 2em 0.3em;
+    border-radius: 0;
+}
+
+#mini-banners i{
+    font-variant-position: 4em;
+}
+
+#mini-banners .card-title{
+    margin-bottom: 1.5em;
+}
+
+@media(min-width: 768px){
+    #mini-banners{
+        margin-top: -90px;
+    }
+}
+
+.margin{
+    margin: 10%;
+}
