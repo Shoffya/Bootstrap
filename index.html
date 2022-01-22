@@ -41,11 +41,11 @@
             <a href="#" class="navbar-brand">
                 <img id="logo" src="img/logo.png" alt="Logo Fictício da Empresa" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-itens"
+                aria-controls="navbar-itens" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
             </button>
-            <div class="collapse navbar-collapse primary-color" id="navbar-items">
+            <div class="collapse navbar-collapse primary-color" id="navbar-itens">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a href="#" class="nav-link active primary-color" aria-current="page">Home</a>
@@ -67,6 +67,7 @@
         </div>
     </nav>
     <!-- SLIDER -->
+
     <div class="container" id="slider-container">
         <div class="carousel slide" id="slider" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -107,6 +108,7 @@
                 </button>
             </div>
         </div>
+
         <!-- MINI BANNERS -->
         <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
             <div class="row">
@@ -119,7 +121,8 @@
                             <p class="card-text secondary-color">
                                 Conheça um pouco mais sobre esse incrível país.
                             </p>
-                            <a href="#" class="btn btn-dark">Saiba mais</a>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#francaModal">Saiba
+                                mais</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +135,8 @@
                             <p class="card-text secondary-color">
                                 Conheça um pouco mais sobre esse incrível país.
                             </p>
-                            <a href="#" class="btn btn-dark">Saiba mais</a>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#portugalModal">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -145,17 +149,62 @@
                             <p class="card-text secondary-color">
                                 Conheça um pouco mais sobre esse incrível país.
                             </p>
-                            <a href="#" class="btn btn-dark">Saiba mais</a>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#alemanhaModal">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i><img class="canada" src="img/icons/canada-torre-CN.png" alt="canada-icone" width="60"
+                                height="60"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Canada</h5>
+                            <p class="card-text secondary-color">
+                                Conheça um pouco mais sobre esse incrível país.
+                            </p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#canadaModal">Saiba
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i><img class="canada" src="img/icons/espanha-palacio-real-de-madrid.png" alt="espanha-icone"
+                                width="60" height="60"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Espanha</h5>
+                            <p class="card-text secondary-color">
+                                Conheça um pouco mais sobre esse incrível país.
+                            </p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#espanhaModal">Saiba
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i><img class="canada" src="img/icons/india-taj-mahal.png" alt="india-icone" width="60"
+                                height="60"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Índia</h5>
+                            <p class="card-text secondary-color">
+                                Conheça um pouco mais sobre esse incrível país.
+                            </p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#indiaModal">Saiba
+                                mais</a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <!-- SOBRE A EMPRESA -->
+
             <div id="about-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="text-center margin">Sobre a empresa</h3>
+                            <h3 class="main-title">Sobre a empresa</h3>
                         </div>
                         <div class="col-md-6">
                             <img class="img-fluid" src="img/quem-somos.png" alt="Quem somos">
@@ -164,13 +213,13 @@
                             <h3 class="about-title">Conheça a Origem+</h3>
                             <p>A Origem+ foi criada em 2005 e, atualmente é uma
                                 das maiores empresas aéreas do mundo. Buscamos proporcionar
-                                aos passageiros uma viagem com benefícios, como:</p>
+                                aos passageiros uma boa viagem com muitos benefícios, como:</p>
                             <ul id="about-list">
-                                <li><i class="fas fa-check"></i>Sugurança</li>
-                                <li><i class="fas fa-check"></i>Conforto</li>
-                                <li><i class="fas fa-check"></i>Preços acessíceis</li>
-                                <li><i class="fas fa-check"></i>Bom atendimento</li>
-                                <li><i class="fas fa-check"></i>Experiência inesquecível</li>
+                                <li><i class="bi bi-check"></i> Sugurança</li>
+                                <li><i class="bi bi-check"></i> Conforto</li>
+                                <li><i class="bi bi-check"></i> Preços acessíceis</li>
+                                <li><i class="bi bi-check"></i> Bom atendimento</li>
+                                <li><i class="bi bi-check"></i> Uma experiência inesquecível</li>
                             </ul>
                         </div>
                     </div>
@@ -179,6 +228,130 @@
         </div>
     </div>
 
+    <!-- MODAL -->
+    <div class="modal fade" id="francaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">França</h5>
+                </div>
+                <div class="modal-body">
+                    <p>A França, na Europa Ocidental, tem cidades medievais, aldeias alpinas e praias mediterrâneas.
+                        Paris, sua capital, é famosa pelas casas de alta costura, museus de arte clássica, como o
+                        Louvre, e monumentos como a Torre Eiffel. O país também é conhecido pelos vinhos e pela
+                        cozinha sofisticada. Antigos desenhos da caverna de Lascaux, o Teatro Romano de Lyon e
+                        o amplo Palácio de Versalhes atestam a sua rica história. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="portugalModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">Portugal</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Portugal é um país no sul da Europa, localizado na Península Ibérica, que faz fronteira com a
+                        Espanha. Sua localização às margens do Oceano Atlântico influenciou muitos aspectos da
+                        cultura do país: o bacalhau salgado e as sardinhas assadas são pratos típicos nacionais,
+                        as praias do Algarve são destinos muito procurados e boa parte da arquitetura do país data
+                        dos séculos XVI a XIX, quando Portugal era um poderoso império marítimo. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="alemanhaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">Alemanha</h5>
+                </div>
+                <div class="modal-body">
+                    <p>A Alemanha é um país situado na Europa Ocidental com uma paisagem de florestas, rios,
+                        cordilheiras e praias do Mar do Norte. A nação tem mais de 2 milênios de história. Berlim, a
+                        capital, abriga cenários artísticos e de vida noturna, o Portão de Brandemburgo e muitos
+                        locais relacionados à Segunda Guerra Mundial. Munique é conhecida pela Oktoberfest e pelos beer
+                        halls, entre eles o Hofbräuhaus, do século XVI. Frankfurt, com seus arranha-céus, abriga o Banco
+                        Central Europeu. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="canadaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">Canadá</h5>
+                </div>
+                <div class="modal-body">
+                    <p>O Canadá é um país norte-americano que se estende desde os EUA, no sul, até o Círculo Polar
+                        Ártico, no norte. Entre suas grandes cidades estão a gigantesca Toronto; Vancouver, centro
+                        cinematográfico da costa oeste; Montreal e Québec City, que falam francês; e a capital, Ottawa.
+                        As vastas regiões de natureza selvagem do Canadá compreendem o Parque Nacional de Banff, repleto
+                        de lagos nas Montanhas Rochosas. Abriga também as Cataratas do Niágara, um famoso conjunto de
+                        enormes cachoeiras. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="espanhaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">Espanha</h5>
+                </div>
+                <div class="modal-body">
+                    <p>A Espanha, país europeu da península Ibérica, tem 17 regiões autônomas com geografia e cultura
+                        diversas. Madri, a capital, abriga o Palácio Real e o Museu do Prado, obras erigidas por mestres
+                        europeus. Segóvia tem um castelo medieval (Alcázar) e um aqueduto romano intacto. A capital da
+                        Catalunha, Barcelona, apresenta monumentos modernistas de Antoni Gaudí, como a Igreja da Sagrada
+                        Família. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="indiaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header color-modal">
+                    <h5 class="modal-title">Índia</h5>
+                </div>
+                <div class="modal-body">
+                    <p>A Índia é um extenso país do Sul da Ásia com geografia diversificada, incluindo desde os picos do
+                        Himalaia até a costa do Oceano Índico, e uma história que remonta a cinco milênios. No norte,
+                        alguns dos monumentos do império mogol são o complexo do Forte Vermelho, em Délhi, e a imponente
+                        mesquita Jama Masjid, bem como o clássico mausoléu Taj Mahal, em Agra. Os peregrinos tomam banho
+                        no Ganges, em Varanasi. Rishikesh é um centro de ioga que serve de base para trilhas no
+                        Himalaia. ― Google</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-dark">Compre passagem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
